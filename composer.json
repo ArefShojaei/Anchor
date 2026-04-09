@@ -1,0 +1,16 @@
+{
+    "name": "arefshojaei/anchor",
+    "description": "PHP local CDN manager",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArefShojaei",
+            "email": "arefshojaei82@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">7.4",
+        "arefshojaei/php-x": "^1.6"
+    }
+}

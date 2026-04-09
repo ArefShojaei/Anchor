@@ -1,0 +1,57 @@
+<?php
+
+require_once dirname(__DIR__) . "/vendor/autoload.php";
+
+use PhpX\Components\Console\App;
+use PhpX\Utils\Console\Console;
+
+/**
+ * Global constant variables
+ */
+const PUBLIC_FOLDER = "/public";
+
+const SERVER_HOST = "localhost";
+const SERVER_PORT = 4163;
+
+
+/**
+ * Application commands
+ */
+$app = new App;
+
+function createServer(string $host, int $port): void {
+    $executableFile = dirname(__DIR__) . "/index.php";
+
+    shell_exec("php -S {$host}:{$port} {$executableFile}");
+}
+
+$app->command("serve --host:{host} --port:{port}", fn(string $host, int $port) => createServer($host, $port));
+$app->command("serve --port:{port}", fn(int $port) => createServer(SERVER_HOST, $port));
+$app->command("serve --host:{host}", fn(string $host) => createServer($host, SERVER_PORT));
+$app->command("serve", fn() => createServer(SERVER_HOST, SERVER_PORT));
+
+$app->command("cdn add {package} {version} {url}", function(
+    string $package, 
+    string $version, 
+    string $url
+) {
+    $directory = dirname(__DIR__) . PUBLIC_FOLDER . "/{$package}/{$version}/";
+
+    if (!is_dir($directory)) mkdir($directory, recursive:true);
+
+    $file = pathinfo($url)["basename"];
+
+    $filePath = $directory . $file;
+    
+    if (file_exists($filePath)) die(Console::error("File: \"{$file}\" is exists!", "ERROR"));
+    
+    echo Console::info("Downloading: \"{$file}\" file...", "START");
+    
+    $content = file_get_contents($url);
+
+    file_put_contents($filePath, $content);
+    
+    echo Console::success("File: \"{$file}\" downloaded successfully.", "END");
+});
+
+$app->launch();
