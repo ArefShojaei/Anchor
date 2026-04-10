@@ -2,6 +2,24 @@
 
 # PHP Local CDN manager
 
+### One Click to install all packages
+CDN Package List
+> path: public/packages.txt
+
+There are list of packages with package, version & url by categorized.
+```txt
+# [Category]
+[package] [version] [url]
+```
+
+You can use This way to install all packages with one click!
+
+> path: scripts/downloader.sh
+if you have Shell env, You will run this bash script
+```bash
+bash scripts/downloader.sh
+``` 
+
 
 ### How to use?
 > Pattern
