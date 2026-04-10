@@ -35,23 +35,29 @@ $app->command("cdn add {package} {version} {url}", function(
     string $version, 
     string $url
 ) {
+    # Stage 1: Downloading package
+    $file = pathinfo($url)["basename"];
+
+    echo Console::info("Downloading: \"{$package}/{$version}/{$file}\" file...", "START") . PHP_EOL;
+    
+    $content = @file_get_contents($url);
+
+    # Stage 2: Network file downloader validation
+    if (!$content) die(Console::error("Failed to open stream for \"{$file}\"", "NETWORK") . PHP_EOL);
+
+    # Stage 3: Filesystem validation
     $directory = dirname(__DIR__) . PUBLIC_FOLDER . "/{$package}/{$version}/";
 
     if (!is_dir($directory)) mkdir($directory, recursive:true);
 
-    $file = pathinfo($url)["basename"];
-
     $filePath = $directory . $file;
     
-    if (file_exists($filePath)) die(Console::error("File: \"{$file}\" is exists!", "ERROR"));
+    if (file_exists($filePath)) die(Console::error("File: \"{$file}\" is exists!", "ERROR") . PHP_EOL);
     
-    echo Console::info("Downloading: \"{$file}\" file...", "START");
-    
-    $content = file_get_contents($url);
-
+    # Stage 4: Save package
     file_put_contents($filePath, $content);
     
-    echo Console::success("File: \"{$file}\" downloaded successfully.", "END");
+    echo Console::success("File: \"{$file}\" downloaded successfully.", "END") . PHP_EOL;
 });
 
 $app->launch();
