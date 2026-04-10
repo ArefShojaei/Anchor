@@ -1,0 +1,129 @@
+# CSS Frameworks
+bootstrap 5.3.5 https://cdn.example.com/bootstrap.min.css
+tailwind 3.4.1 https://cdn.example.com/tailwind.min.css
+bulma 0.9.4 https://cdn.example.com/bulma.min.css
+foundation 6.7.5 https://cdn.example.com/foundation.min.css
+materialize 1.0.0 https://cdn.example.com/materialize.min.css
+metro4 4.5.0 https://cdn.example.com/metro.min.css
+spectre 0.5.9 https://cdn.example.com/spectre.min.css
+purecss 2.0.6 https://cdn.example.com/pure.min.css
+milligram 1.4.1 https://cdn.example.com/milligram.min.css
+picnic 6.5.0 https://cdn.example.com/picnic.min.css
+semantic-ui 2.5.0 https://cdn.example.com/semantic.min.css
+uikit 3.18.0 https://cdn.example.com/uikit.min.css
+primer-css 21.0.0 https://cdn.example.com/primer.min.css
+nes-css 2.3.0 https://cdn.example.com/nes.min.css
+watercss 2.1.1 https://cdn.example.com/water.min.css
+
+# CSS Utilities
+animatecss 4.1.1 https://cdn.example.com/animate.min.css
+hovercss 2.3.2 https://cdn.example.com/hover.min.css
+hamburgers 1.2.1 https://cdn.example.com/hamburgers.min.css
+normalizecss 8.0.1 https://cdn.example.com/normalize.min.css
+modern-normalize 2.0.0 https://cdn.example.com/modern-normalize.min.css
+open-props 1.6.0 https://cdn.example.com/open-props.min.css
+
+# Icon Libraries
+fontawesome 6.5.1 https://cdn.example.com/fontawesome.min.css
+material-icons 1.0.0 https://cdn.example.com/material-icons.min.css
+ionicons 7.1.0 https://cdn.example.com/ionicons.min.css
+feather-icons 4.29.0 https://cdn.example.com/feather.min.css
+heroicons 2.0.18 https://cdn.example.com/heroicons.min.css
+bootstrap-icons 1.11.3 https://cdn.example.com/bootstrap-icons.min.css
+remixicon 3.5.0 https://cdn.example.com/remixicon.min.css
+eva-icons 1.1.3 https://cdn.example.com/eva.min.css
+line-awesome 1.3.0 https://cdn.example.com/line-awesome.min.css
+typicons 2.1.2 https://cdn.example.com/typicons.min.css
+boxicons 2.1.4 https://cdn.example.com/boxicons.min.css
+tabler-icons 2.44.0 https://cdn.example.com/tabler-icons.min.css
+
+# JavaScript Frameworks
+react 18.2.0 https://cdn.example.com/react.production.min.js
+vue 3.4.0 https://cdn.example.com/vue.global.prod.js
+angular 17.0.0 https://cdn.example.com/angular.min.js
+svelte 4.2.0 https://cdn.example.com/svelte.min.js
+alpinejs 3.13.0 https://cdn.example.com/alpine.min.js
+ember 5.4.0 https://cdn.example.com/ember.min.js
+backbone 1.5.0 https://cdn.example.com/backbone.min.js
+mithril 2.2.2 https://cdn.example.com/mithril.min.js
+preact 10.19.0 https://cdn.example.com/preact.min.js
+solidjs 1.8.0 https://cdn.example.com/solid.min.js
+
+# Utility Libraries
+jquery 3.7.1 https://cdn.example.com/jquery.min.js
+lodash 4.17.21 https://cdn.example.com/lodash.min.js
+underscore 1.13.6 https://cdn.example.com/underscore.min.js
+ramda 0.29.0 https://cdn.example.com/ramda.min.js
+rxjs 7.8.1 https://cdn.example.com/rxjs.min.js
+d3 7.9.0 https://cdn.example.com/d3.min.js
+threejs 0.160.0 https://cdn.example.com/three.min.js
+animejs 3.2.1 https://cdn.example.com/anime.min.js
+gsap 3.12.2 https://cdn.example.com/gsap.min.js
+uuid 9.0.1 https://cdn.example.com/uuid.min.js
+
+# HTTP & Networking
+axios 1.6.7 https://cdn.example.com/axios.min.js
+ky 0.34.0 https://cdn.example.com/ky.min.js
+superagent 8.1.0 https://cdn.example.com/superagent.min.js
+graphql-request 6.1.0 https://cdn.example.com/graphql-request.min.js
+
+# Date & Time
+moment 2.30.1 https://cdn.example.com/moment.min.js
+dayjs 1.11.10 https://cdn.example.com/dayjs.min.js
+luxon 3.4.4 https://cdn.example.com/luxon.min.js
+date-fns 3.2.0 https://cdn.example.com/date-fns.min.js
+timeago 4.0.2 https://cdn.example.com/timeago.min.js
+countdownjs 2.6.0 https://cdn.example.com/countdown.min.js
+
+# Charts & Visualization
+chartjs 4.4.0 https://cdn.example.com/chart.min.js
+highcharts 11.2.0 https://cdn.example.com/highcharts.min.js
+apexcharts 3.44.0 https://cdn.example.com/apexcharts.min.js
+echarts 5.5.0 https://cdn.example.com/echarts.min.js
+plotlyjs 2.30.0 https://cdn.example.com/plotly.min.js
+c3js 0.7.20 https://cdn.example.com/c3.min.js
+
+# UI Components
+jquery-ui 1.13.2 https://cdn.example.com/jquery-ui.min.js
+sweetalert2 11.10.0 https://cdn.example.com/sweetalert2.min.js
+notyf 3.10.0 https://cdn.example.com/notyf.min.js
+toastr 2.1.4 https://cdn.example.com/toastr.min.js
+micromodal 0.4.10 https://cdn.example.com/micromodal.min.js
+tippyjs 6.3.7 https://cdn.example.com/tippy.min.js
+
+# Forms
+select2 4.1.0 https://cdn.example.com/select2.min.js
+choicesjs 11.0.0 https://cdn.example.com/choices.min.js
+flatpickr 4.6.13 https://cdn.example.com/flatpickr.min.js
+cleavejs 1.6.0 https://cdn.example.com/cleave.min.js
+imask 7.6.0 https://cdn.example.com/imask.min.js
+
+# Tables
+datatables 1.13.8 https://cdn.example.com/datatables.min.js
+gridjs 6.0.6 https://cdn.example.com/gridjs.min.js
+tabulator 6.2.0 https://cdn.example.com/tabulator.min.js
+
+# Sliders & Carousels
+swiper 11.0.6 https://cdn.example.com/swiper.min.js
+slick-carousel 1.8.1 https://cdn.example.com/slick.min.js
+splide 4.1.4 https://cdn.example.com/splide.min.js
+glidejs 3.6.0 https://cdn.example.com/glide.min.js
+keen-slider 6.8.5 https://cdn.example.com/keen-slider.min.js
+
+# Media Players
+videojs 8.6.0 https://cdn.example.com/video.min.js
+plyr 3.7.8 https://cdn.example.com/plyr.min.js
+hlsjs 1.5.7 https://cdn.example.com/hls.min.js
+
+# Maps
+leaflet 1.9.4 https://cdn.example.com/leaflet.min.js
+mapbox-gl 3.0.1 https://cdn.example.com/mapbox-gl.min.js
+openlayers 8.2.0 https://cdn.example.com/openlayers.min.js
+
+# Misc Tools
+socketio 4.7.2 https://cdn.example.com/socket.io.min.js
+firebase 10.7.0 https://cdn.example.com/firebase.min.js
+dropzone 6.0.0 https://cdn.example.com/dropzone.min.js
+clipboardjs 2.0.11 https://cdn.example.com/clipboard.min.js
+introjs 7.2.0 https://cdn.example.com/intro.min.js
+driverjs 1.3.0 https://cdn.example.com/driver.min.js
