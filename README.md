@@ -20,8 +20,37 @@ if you have Shell env, You will run this bash script
 bash scripts/downloader.sh
 ``` 
 
+## Installation
+> Composer installer
+```bash
+composer create-project arefshojaei/anchor my-app
+```
 
-### How to use?
+OR
+
+> Clone the repository
+```bash
+git clone https://github.com/ArefShojaei/Anchor.git
+```
+
+## Setup
+> Move to the folder
+```bash
+cd my-app
+```
+
+or 
+
+```bash
+cd Anchor
+```
+
+> Install dependencies
+```bash
+composer install
+```
+
+## How to use?
 > Pattern
 ```txt
 php bin/cli add cdn [package] [version] [url]
@@ -33,7 +62,7 @@ php bin/cli cdn add bootstrap 5.3.8 https://cdn.js
 delivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
 ```
 
-### How to run?
+## How to run?
 
 > Pattern
 ```txt
