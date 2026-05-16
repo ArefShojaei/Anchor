@@ -3,6 +3,16 @@
     "description": "PHP local CDN manager",
     "type": "project",
     "license": "MIT",
+    "keywords": [
+        "cdn",
+        "downloader",
+        "offline",
+        "local",
+        "file",
+        "explorer"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "ArefShojaei",
